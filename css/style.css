@@ -1,0 +1,167 @@
+body {
+    font-family: 'Gruppo', cursive;
+    font-size: 1vw;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  p {
+    font-size: 1.5vw;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background: url("https://i.imgur.com/slrpEqW.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.2vw;
+    font-family: 'Megrim', cursive;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .jumbotron,
+  h1 {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    color: white;
+  }
+  
+  .jumbo-call-to-action {
+    background-color: black;
+    opacity: 0.65;
+    border-radius: 3vh;
+    padding: 1rem;
+  }
+  
+  .jumbo-call-to-action > p {
+    font-family: 'Gruppo', cursive;
+  }
+  
+  .display-3 {
+    font-size: 6vw;
+  }
+  
+  .btn {
+    margin-top: 2rem;
+    font-family: 'Gruppo', cursive;
+    background-color: #343a40;
+    border-color: white;
+  }
+  
+  .container {
+    max-width: 100%;
+    width: 90vw;
+  }
+  
+  h2 {
+    font-size: 2.5vw;
+  }
+  
+  .navbar,
+  a {
+    font-family: 'Megrim', cursive;
+  }
+  
+  .navbar-nav.mr-auto {
+    font-family: 'Megrim', cursive;
+  }
+  
+  .navbar-brand {
+    font-size: 3vw;
+  }
+  
+  #nav-bar {
+    flex-direction: column;
+  }
+  
+  #header {
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .nav-scrolled {
+    height: 8vh;
+    flex-direction: row !important;
+  }
+  
+  #main {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  #view-more {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  #view-more-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  #video {
+    height: 60vh;
+    width: 80vw;
+  }
+  
+  form {
+    white-space: pre;
+    text-align: center;
+  }
+  
+  #subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+  }
+  
+  #email {
+    border-color: black;
+    background-color: lightgray;
+    height: 10vh;
+    width: 40vw;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 2.5vw;
+  }
+  
+  #submit {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    height: 10vh;
+    width: 20vw;
+    font-size: 2.5vw;
+  }
+  
+  @media only screen and (max-width: 600px) {
+      html {
+          font-size: 5vw !important;
+      }
+    
+    h2 {
+      font-size: 9vw;
+    }
+    
+    p {
+      font-size: 5vw;
+    }
+    
+    #email {
+      width: 80vw;
+      font-size: 5vw;
+    }
+    
+    #submit {
+      width: 80vw;
+      font-size: 5vw;
+    }
+  }
