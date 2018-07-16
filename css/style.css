@@ -11,7 +11,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background: url("https://i.imgur.com/slrpEqW.png");
+    background: url("../static/slrpEqW.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
